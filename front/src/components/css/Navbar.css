@@ -1,0 +1,47 @@
+.nav{
+    width: 80px;
+    height: 80px;
+    background: #009578;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition: all 0.2s;
+    
+    margin-top: 10px;
+    margin-right: 20px;
+
+    
+}
+.nav:hover{
+    background: #00866c;
+}
+
+.nav:active{
+    transform: scale(0.9);
+}
+
+.nav>*{
+    height: 40px;
+    width: 40px;
+}
+  
+.nav-container{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    z-index: 5;    
+}
+
+#coin{
+    background-color: #F2C83B;
+    color: black;
+}
